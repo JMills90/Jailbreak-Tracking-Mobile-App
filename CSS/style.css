@@ -5,15 +5,45 @@ html,body{
 	}
 	
 #content{
-	width: 100%;
-	height: 100%;
+	width: 20%;
+	height: 60%;
 	background-color:#eee;
 	} 
 	
 #prev_texts{
 	float: left;
-	width: 100%;
-	height: 81%;
+	width: 90%;
+	height: 68%;
+	padding: 5%;
+	overflow: scroll;
+	}
+	
+.sender,.reciever{
+	clear: both;
+	padding: 3%;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius:15px;
+	max-width: 60%;
+	margin-top: 5%;
+	}
+	
+.sender p,.reciever p{
+	margin: 0%;
+	font-size: 75%;
+	word-wrap: break-word;
+	}
+	
+.sender{
+	float: right;
+	background-color:#06F;
+	color: #FFF;
+	}
+	
+.reciever{
+	float: left;
+	background-color:#FFF;
+	color:#06F;
 	}
 	
 form{
