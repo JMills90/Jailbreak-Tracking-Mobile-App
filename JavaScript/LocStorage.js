@@ -25,6 +25,7 @@ $(document).ready(function(){
 			localStorage.setItem(count.toString(),lastMessage);
 			
 			message.val(null);
+			
 			addToTexts("sender", localStorage.getItem(count.toString()));
 			
 			count++;

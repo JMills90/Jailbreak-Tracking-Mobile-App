@@ -9,11 +9,11 @@ html,body{
 	height: 100%;
 	background-color:#eee;
 	} 
-	
+		
 #prev_texts{
 	float: left;
 	width: 90%;
-	height: 68%;
+	height: 72%;
 	padding: 5%;
 	overflow: scroll;
 	}
@@ -59,6 +59,7 @@ form{
 	height: 85%;
 	resize: none;
 	float: left;
+	
 	}
 	
 form p{
